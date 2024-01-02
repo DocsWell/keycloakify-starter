@@ -12,6 +12,61 @@
 }
 
 .my-root-class body {
-	background: url(./assets/background.svg) no-repeat center center fixed;
-	background-color: blue;
+	background: white;
+}
+
+.my-root-class body #root {
+	background: white;
+	height: 100%;
+}
+
+.my-root-class body #root .kcLoginClass {
+	background: white;
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+	width: 100%;
+}
+
+.kcLabelClass {
+	font: normal 500 1.3rem/1.8rem;
+	margin-bottom: 0px;
+}
+
+.kcInputClass {
+    margin-top: 0.4rem;
+    font: 400 1.3rem/1.8rem;
+    color: black;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.6rem;
+    outline: none !important;
+    padding: 0.8rem 3rem 0.8rem 1.2rem;
+}
+
+#kc-form-buttons {
+	margin-top: 0px;
+}
+
+#kc-login {
+	border: 1px solid #1379f0;
+	background: #1379f0;
+	box-shadow: 0 1px 2px 0 rgba(16,24,40,.05);
+	color: white;
+	border-radius: 6px;
+	padding: 5px 8px;
+}
+
+#kc-login:hover {
+	border-color: #116dd8;
+	background-color: #116dd8;
+}
+
+#kc-login:active {
+	border-color: #0f61c0;
+	background-color: #0f61c0;
 }
